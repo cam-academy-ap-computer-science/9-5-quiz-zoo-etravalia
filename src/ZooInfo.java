@@ -1,7 +1,10 @@
+// We are part of a zoo
+
+
 
 
 //  This is the main routine 
-public class zooInfo {
+public class ZooInfo {
 	public static void main() {
 		// Create a zoo object
 		Zoo thisZoo = new Zoo(10,10);
@@ -32,9 +35,9 @@ public class zooInfo {
 		e1.addAnimal(c);
 		thisZoo.addExhibit(e1);
 
-		Animal d = new Pinnaped("sue");
-		Animal e = new Pinnaped("sara");
-		Animal f = new Pinnaped("seamore");
+		Animal d = new Seal("sue");
+		Animal e = new Seal("sara");
+		Animal f = new Seal("seamore");
 		
 		Exhibit e2 = new SeaMammalExhibit("seals", 10);
 		e2.addAnimal(d);

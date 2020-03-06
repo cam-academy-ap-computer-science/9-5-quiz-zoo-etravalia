@@ -12,8 +12,8 @@ public class Animal {
 	
 	public String getType() {
 		Object o = this;
-		if (o instanceof Pinnaped) {
-			return "Pinnaped";
+		if (o instanceof Seal) {
+			return "Seal";
 		} else if (o instanceof Whale) {
 			return "Whale";
 		} else if (o instanceof Seagull) {
