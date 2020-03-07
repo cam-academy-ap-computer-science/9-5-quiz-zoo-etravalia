@@ -4,7 +4,7 @@ public class Zoo {
 	private int numExhibits;
 	private int maxExhibits;
 	
-	public Zoo (int maxExhibits, int maxEmployees) {
+	public Zoo (int maxExhibits) {
 		this.exhibits = new Exhibit[maxExhibits];
 		this.maxExhibits = maxExhibits;
 	}
