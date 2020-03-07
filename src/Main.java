@@ -3,7 +3,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Create a zoo object
-		Zoo thisZoo = new Zoo(10,10);
+		Zoo thisZoo = new Zoo(10);
 		int totalAnimals = 0;
 		
 		populateMyZoo(thisZoo);
